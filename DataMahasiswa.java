@@ -1,9 +1,9 @@
 public class DataMahasiswa {
-    int nilai1 = 80, nilai2 = 90, jumlah;
+    int nilai1 = 85, nilai2 = 95, jumlah;
 
     public static void main(String[] args) {
         DataMahasiswa nilai = new DataMahasiswa();
-        System.out.println("Jumlah nilai mahasiswa = " + nilai.jumlah());
+        System.out.println("Jumlah nilai mahasiswa adalah " + nilai.jumlah());
     }
 
     int jumlah(){
